@@ -16,30 +16,30 @@ public class ProgramaProfessor {
 			
 			System.out.println("Informe dados do professor: ");
 			System.out.print("Digite o nome: ");
-			prof.nome = entrada.nextLine();
+			prof.setNome(entrada.nextLine());
 			
 			System.out.print("Digite a idade: ");
-			prof.idade = entrada.nextInt();
+			prof.setIdade(entrada.nextInt());
 			
 			System.out.print("Digite o sexo: ");
 			entrada.nextLine();
-			prof.sexo = entrada.nextLine();
+			prof.setSexo(entrada.nextLine());
 			
 			System.out.print("Digite estado cívil: ");
-			prof.estadoCivil = entrada.nextLine();		
+			prof.setEstadoCivil(entrada.nextLine());		
 			
 			System.out.print("Digite endereço: ");
-			prof.endereco = entrada.nextLine();
+			prof.setEndereco(entrada.nextLine());
 			
 			System.out.print("Digite salário: ");
-			prof.salario = entrada.nextDouble();
+			prof.setSalario(entrada.nextDouble());
 			
 			System.out.print("Digite data de admissão: ");	
 			entrada.nextLine();
-			prof.dataAdmissao = entrada.nextLine();	
+			prof.setDataAdmissao(entrada.nextLine());	
 			
 			System.out.print("Digite a quantidade de disciplinas: ");
-			prof.qtdDisciplinas = entrada.nextInt();		
+			prof.setQtdDisciplinas(entrada.nextInt());		
 			entrada.nextLine();
 			
 			professores.add(prof);	
