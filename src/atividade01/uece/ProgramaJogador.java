@@ -16,27 +16,27 @@ public class ProgramaJogador {
 			
 			System.out.println("Informe dados do Jogador: ");
 			System.out.print("Digite o nome: ");
-			jog.nome = entrada.nextLine();
+			jog.setNome(entrada.nextLine());
 			
 			System.out.print("Digite a idade: ");
-			jog.idade = entrada.nextInt();
+			jog.setIdade(entrada.nextInt());
 			
 			System.out.print("Digite estado cívil: ");
 			entrada.nextLine();
-			jog.estadoCivil = entrada.nextLine();		
+			jog.setEstadoCivil(entrada.nextLine());		
 			
 			System.out.print("Digite endereço: ");
-			jog.endereco = entrada.nextLine();
+			jog.setEndereco(entrada.nextLine());
 			
 			System.out.print("Digite salário: ");
-			jog.salario = entrada.nextDouble();
+			jog.setSalario(entrada.nextDouble());
 			
 			System.out.print("Digite o clube do coração: ");	
 			entrada.nextLine();
-			jog.clubeCoracao = entrada.nextLine();	
+			jog.setClubeCoracao(entrada.nextLine());	
 			
 			System.out.print("Digite o posicionamento: ");	
-			jog.posicao = entrada.nextLine();	
+			jog.setPosicao(entrada.nextLine());	
 			
 			Jogadores.add(jog);	
 		}
